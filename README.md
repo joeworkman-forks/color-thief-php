@@ -1,11 +1,19 @@
 Color Thief PHP
 ==============
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/ksubileau/color-thief-php?style=flat-square)](https://packagist.org/packages/ksubileau/color-thief-php)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/ksubileau/color-thief-php/tests.yml?style=flat-square)](https://github.com/ksubileau/color-thief-php/actions?query=workflow%3ATests)
-[![GitHub issues](https://img.shields.io/github/issues/ksubileau/color-thief-php?style=flat-square)](https://github.com/ksubileau/color-thief-php/issues)
-[![Packagist](https://img.shields.io/packagist/dm/ksubileau/color-thief-php?style=flat-square)](https://packagist.org/packages/ksubileau/color-thief-php)
-[![License](https://img.shields.io/packagist/l/ksubileau/color-thief-php?style=flat-square)](https://packagist.org/packages/ksubileau/color-thief-php)
+> **⚠️ This is a maintained fork, not the original package.**
+> `totalcms/color-thief-php` is a temporary fork of
+> [`ksubileau/color-thief-php`](https://github.com/ksubileau/color-thief-php)
+> carrying PHP 8.2+ deprecation fixes that haven't shipped in an upstream
+> stable release yet. It exists solely as a bridge for [Total CMS](https://totalcms.co)
+> until upstream's **3.0** release lands and is verified, at which point this
+> fork will be retired in favour of the upstream package. New projects should
+> depend on the upstream package directly.
+
+[![Latest Stable Version](https://img.shields.io/packagist/v/totalcms/color-thief-php?style=flat-square)](https://packagist.org/packages/totalcms/color-thief-php)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/totalcms/color-thief-php/tests.yml?style=flat-square)](https://github.com/totalcms/color-thief-php/actions?query=workflow%3ATests)
+[![GitHub issues](https://img.shields.io/github/issues/totalcms/color-thief-php?style=flat-square)](https://github.com/totalcms/color-thief-php/issues)
+[![License](https://img.shields.io/packagist/l/totalcms/color-thief-php?style=flat-square)](https://packagist.org/packages/totalcms/color-thief-php)
 
 A PHP class for **grabbing the color palette** from an image. Uses PHP and GD, Imagick or Gmagick libraries to make it happen.
 
@@ -28,7 +36,7 @@ It's a PHP port of the [Color Thief Javascript library](http://github.com/lokesh
 The recommended way to install Color Thief is through
 [Composer](http://getcomposer.org):
 ```bash
-composer require ksubileau/color-thief-php
+composer require totalcms/color-thief-php
 ```
 
 ### Get the dominant color from an image
@@ -91,6 +99,9 @@ The `$quality`, `$area`, `$outputFormat` and `$adapter` arguments work as in the
 ### Author
 by Kevin Subileau
 [kevinsubileau.fr](http://www.kevinsubileau.fr/?utm_campaign=github&utm_term=color-thief-php_readme)
+
+### Fork maintainer
+This fork is maintained by [Joe Workman](https://totalcms.co) for [Total CMS](https://totalcms.co).
 
 Based on the fabulous work done by Lokesh Dhakar
 [lokeshdhakar.com](http://www.lokeshdhakar.com)

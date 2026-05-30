@@ -1,17 +1,28 @@
 {
-    "name": "ksubileau/color-thief-php",
+    "name": "totalcms/color-thief-php",
     "type": "library",
-    "homepage" : "http://www.kevinsubileau.fr/projets/color-thief-php",
-    "description": "Grabs the dominant color or a representative color palette from an image.",
+    "homepage": "https://github.com/totalcms/color-thief-php",
+    "description": "Maintained fork of ksubileau/color-thief-php with PHP 8.2+ deprecation fixes. Temporary bridge for Total CMS until the upstream 3.0 release.",
     "keywords": ["color", "thief", "php", "dominant", "palette"],
     "license": "MIT",
 
     "authors": [
         {
             "name": "Kevin Subileau",
-            "homepage": "http://www.kevinsubileau.fr"
+            "homepage": "http://www.kevinsubileau.fr",
+            "role": "Original author"
+        },
+        {
+            "name": "Joe Workman",
+            "homepage": "https://totalcms.co",
+            "role": "Fork maintainer"
         }
     ],
+
+    "support": {
+        "issues": "https://github.com/totalcms/color-thief-php/issues",
+        "source": "https://github.com/totalcms/color-thief-php"
+    },
 
     "require": {
         "php": "^8.2",
